@@ -82,6 +82,12 @@ means something and would survive a technical interview question about it.
 | Airline segmentation | K-Means splits 49 major carriers into three groups: a low-delay group (17 carriers, ~16% delay rate), a mid-tier group (22 carriers, ~19% delay rate), and a high-delay group (10 carriers, ~24% delay rate and disproportionately more cancellations) |
 | High-delay prediction | A carrier's own delay/cancellation performance the prior month is the strongest available signal for whether the next month will be a high-delay period |
 
+![SARIMA Forecast](visualizations/07_sarima_forecast.png)
+*12-month SARIMA forecast of system-wide delay hours, with confidence interval.*
+
+![K-Means Airline Clusters](visualizations/09_kmeans_clusters.png)
+*Airlines segmented into three operational-performance clusters.*
+
 ## Visualizations
 
 All charts in [`visualizations/`](visualizations/), generated directly from the scripts above:
@@ -110,6 +116,8 @@ Python (pandas, numpy), matplotlib, seaborn, scikit-learn (StandardScaler, KMean
 ```
 airline-delay-analytics/
 ├── README.md
+├── LICENSE
+├── .gitignore
 ├── requirements.txt
 ├── data/
 │   ├── raw/                 # download instructions (file not committed, 51MB)
@@ -123,7 +131,6 @@ airline-delay-analytics/
 │   ├── 04_kmeans_clustering.py
 │   └── 05_classification.py
 ├── visualizations/
-├── reports/
 └── documentation/
     └── data_dictionary.md
 ```
