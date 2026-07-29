@@ -2,7 +2,7 @@
 ![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-F7931E?logo=scikitlearn&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/statsmodels-SARIMA-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 # U.S. Airline Delay Analysis: Trends, Causes & Forecasting
 
